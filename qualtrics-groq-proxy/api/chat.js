@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   // Allow your specific Qualtrics domain
-  res.setHeader('Access-Control-Allow-Origin', 'https://vuamsterdam.eu.qualtrics.com');
+  res.setHeader('Access-Control-Allow-Origin', 'https://qualtrics-groq-proxy.vercel.app');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
