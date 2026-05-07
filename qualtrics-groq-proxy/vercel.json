@@ -3,6 +3,6 @@
     "api/chat.js": { "runtime": "nodejs20.x" }
   },
   "rewrites": [
-    { "source": "/chat", "destination": "/public/chat.html" }
+    { "source": "/chat", "destination": "/chat.html" }
   ]
 }
